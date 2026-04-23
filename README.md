@@ -28,7 +28,9 @@ Send a message to the bot in this format:
 5. Activate workflow
 
 ## Screenshots
-/screenshots
+![Workflow](screenshots/workflow.png)
+![Telegram](screenshots/telegram.png)
+![Sheets](screenshots/sheets.png)
 
 ## Author
 Ahmed El-Telbani
