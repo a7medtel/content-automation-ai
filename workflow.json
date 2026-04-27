@@ -29,7 +29,7 @@
     },
     {
       "parameters": {
-        "jsCode": "const content = items[0].json.choices[0].message.content;\nconst topic = items[0].json.choices[0].message.content;\n\nreturn [{\n  json: {\n    content: content,\n    topic: $input.first().json.topic || \"Python automation\",\n    platform: $input.first().json.platform || \"LinkedIn\",\n    date: new Date().toISOString().split('T')[0]\n  }\n}];"
+        "jsCode": "const content = items[0].json.choices[0].message.content;\n\nreturn [{\n  json: {\n    content: content,\n    topic: $('Code in JavaScript2').first().json.topic,\n    platform: $('Code in JavaScript2').first().json.platform,\n    date: new Date().toISOString().split('T')[0]\n  }\n}];"
       },
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
@@ -144,8 +144,8 @@
       "webhookId": "c53d48d4-60bb-411a-bfd7-edeba348a08a",
       "credentials": {
         "telegramApi": {
-          "id": "JKjJqFnmtT64V3sV",
-          "name": "Telegram account"
+          "id": "fFmY8K7YpHFeFD4h",
+          "name": "Content Bot"
         }
       }
     },
@@ -167,8 +167,8 @@
       "webhookId": "c246cbf4-54f2-4d10-8603-b8b785d01086",
       "credentials": {
         "telegramApi": {
-          "id": "JKjJqFnmtT64V3sV",
-          "name": "Telegram account"
+          "id": "fFmY8K7YpHFeFD4h",
+          "name": "Content Bot"
         }
       }
     },
@@ -249,7 +249,7 @@
     "executionOrder": "v1",
     "binaryMode": "separate"
   },
-  "versionId": "01a5c365-800a-420c-a676-f9055b0ae4a2",
+  "versionId": "aba2d749-20b3-494c-93ef-3538e37210d5",
   "meta": {
     "templateCredsSetupCompleted": true,
     "instanceId": "59e479b918fac390303baf3bf4fd10f6d94da77d686c870abfc9af5cee645ffb"
