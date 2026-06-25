@@ -32,5 +32,3 @@ Send a message to the bot in this format:
 ![Telegram](screenshots/telegram.png)
 ![Sheets](screenshots/sheets.png)
 
-## Author
-Ahmed El-Telbani
